@@ -1,0 +1,1 @@
+# egit-training-start-tgz
