@@ -13,6 +13,7 @@ import org.eclipse.example.calc.BinaryOperation;
 import org.eclipse.example.calc.Operation;
 import org.eclipse.example.calc.Operations;
 import org.eclipse.example.calc.UnaryOperation;
+import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Multiply;
@@ -42,6 +43,7 @@ public class Calculator {
 		new Plus();
 		new Square();
 		new Multiply();
+		new Divide();
 	}
 
 	// fixed: textProvider value may be null or empty String
