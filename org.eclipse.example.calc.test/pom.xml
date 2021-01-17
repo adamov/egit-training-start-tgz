@@ -16,7 +16,7 @@
   <parent>
     <groupId>org.eclipse.example.calc</groupId>
     <artifactId>calc-parent</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
   </parent>
 
   <artifactId>org.eclipse.example.calc.test</artifactId>
