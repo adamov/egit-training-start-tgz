@@ -19,7 +19,7 @@
 
   <groupId>org.eclipse.example.calc</groupId>
   <artifactId>calc-parent</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Calculator Example Parent (Incubation)</name>
