@@ -29,6 +29,12 @@ public class DivideTest extends AbstractOperationTest {
 	}
 
 	@Test
+	public void testDivideByZero() {
+		assertEquals(Float.POSITIVE_INFINITY, op.perform(5.0F, 0.0F), 0.01F);
+		assertEquals(Float.NEGATIVE_INFINITY, op.perform(-5.0F, 0.0F), 0.01F);
+	}
+
+	@Test
 	public void testGetName() {
 		assertEquals(op.getName(), "/");
 	}
