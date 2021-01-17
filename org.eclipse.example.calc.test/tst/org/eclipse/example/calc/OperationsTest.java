@@ -17,6 +17,7 @@ import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Plus;
+import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
 import org.junit.After;
 import org.junit.Before;
@@ -34,6 +35,7 @@ public class OperationsTest {
 		square = new Square();
 		new Multiply();
 		new Divide();
+		new Power();
 	}
 
 	@After
@@ -60,6 +62,7 @@ public class OperationsTest {
 		assertTrue(Operations.INSTANCE.getOperation("^2") instanceof Square);
 		assertTrue(Operations.INSTANCE.getOperation("*") instanceof Multiply);
 		assertTrue(Operations.INSTANCE.getOperation("/") instanceof Divide);
+		assertTrue(Operations.INSTANCE.getOperation("^^") instanceof Power);
 	}
 
 	@Test
